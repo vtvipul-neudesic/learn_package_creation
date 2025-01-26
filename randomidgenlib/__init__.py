@@ -1,0 +1,1 @@
+from .src.id_generator import generate_random_id

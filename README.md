@@ -6,7 +6,6 @@ RandomIDGenLib is a simple library for generating random IDs. It provides easy-t
 
 - Generate random IDs of specified length
 - Support for alphanumeric characters
-- Customizable character sets
 - Lightweight and easy to integrate
 
 ## Installation
@@ -14,7 +13,7 @@ RandomIDGenLib is a simple library for generating random IDs. It provides easy-t
 To install RandomIDGenLib, use the following command:
 
 ```bash
-pip install randomidgenlib
+pip install git+https://github.com/vtvipul-neudesic/learn_package_creation.git
 ```
 
 ## Usage
@@ -37,18 +36,6 @@ You can also specify a custom character set for generating IDs:
 from randomidgenlib import generate_id
 
 # Generate a random ID of length 10 using only digits
-random_id = generate_id(10, charset='0123456789')
+random_id = generate_id(10)
 print(random_id)
 ```
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request on GitHub.
-
-## Contact
-
-For any questions or suggestions, please contact us at support@randomidgenlib.com.
